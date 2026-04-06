@@ -1,6 +1,6 @@
 // بيانات تسجيل الدخول - حساب واحد فقط لك أنت
-const USERNAME = "admin";
-const PASSWORD = "admin123";
+const USERNAME = "123";
+const PASSWORD = "123";
 
 // ⚠️ إعدادات التليجرام - استبدل هذه القيم ببياناتك الحقيقية ⚠️
 const TELEGRAM_BOT_TOKEN = "8795027796:AAGfBD6KX2wI3YVNyfj1DVS_MzcLNQZHAu8"; // ضع توكن البوت هنا
@@ -56,7 +56,7 @@ function logout() {
 
 // إرسال رسالة إلى تليجرام
 function sendToTelegram(message) {
-    if (TELEGRAM_BOT_TOKEN === "YOUR_BOT_TOKEN_HERE" || TELEGRAM_CHAT_ID === "YOUR_CHAT_ID_HERE") {
+    if (TELEGRAM_BOT_TOKEN === "8795027796:AAGfBD6KX2wI3YVNyfj1DVS_MzcLNQZHAu8" || TELEGRAM_CHAT_ID === "8795027796") {
         console.log("⚠️ لم يتم إعداد التليجرام بعد. الرجاء إضافة التوكن والمعرف");
         return;
     }
